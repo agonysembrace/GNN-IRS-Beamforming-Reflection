@@ -1,6 +1,7 @@
 import tensorflow as tf
-from tensorflow.python.keras.layers import Layer, Dense,BatchNormalization
+from tensorflow.python.keras.layers import Layer, Dense
 
+from keras.layers import BatchNormalization
 
 class MLP_input_w(Layer):
     def __init__(self):

@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0,r"C:\Users\Dawn\Desktop\down_link_matlab_code\GNN-IRS-Beamforming-Reflection\irs_ml_sum_rate")
+print(sys.path)
 from sum_rate_bcd.generate_channel import generate_channel, channel_complex2real
 from sum_rate_bcd.generate_received_pilots import generate_pilots_bl, generate_pilots_bl_v2, \
     generate_received_pilots_batch, decorrelation
